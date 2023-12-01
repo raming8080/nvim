@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["centerpad.nvim"] = {
+    loaded = true,
+    path = "/Users/jr/.local/share/nvim/site/pack/packer/start/centerpad.nvim",
+    url = "https://github.com/smithbm2316/centerpad.nvim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/Users/jr/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
