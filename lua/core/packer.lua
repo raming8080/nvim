@@ -23,7 +23,8 @@ return require('packer').startup(function(use)
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
-  use { 'smithbm2316/centerpad.nvim' }
+--  use { 'smithbm2316/centerpad.nvim' }
+  use {"shortcuts/no-neck-pain.nvim", tag = "*" }
   use {
   'nvim-telescope/telescope.nvim', tag = '0.1.4',
 -- or                            , branch = '0.1.x',
