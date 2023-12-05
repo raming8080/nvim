@@ -15,3 +15,5 @@ vim.opt.shiftround = true
 vim.opt.expandtab = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+
+vim.wo.relativenumber = true
