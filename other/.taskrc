@@ -38,6 +38,7 @@ data.location=/Users/a3860/.task
 include solarized-dark-256.theme
 color.blocked=color0 on color6
 color.blocking=color0 on color6
+color.active=color0 on color1
 #include solarized-light-256.theme
 #include no-color.theme
 #include gruvbox.theme
